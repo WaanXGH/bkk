@@ -11,11 +11,9 @@
 
 
 
+## Credits
 
-## created najwan
-
-
-## supported by asfung and rifky
+supported by asfung and rifky
 
 
 designed by raden
