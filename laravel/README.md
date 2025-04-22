@@ -12,8 +12,10 @@
 
 
 
-created najwan
-support by asfung and rifky
+## created najwan
+
+
+## supported by asfung and rifky
 
 
 designed by raden
