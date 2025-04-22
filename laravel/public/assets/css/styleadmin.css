@@ -1,0 +1,232 @@
+body {
+    display: flex;
+    height: 100vh;
+    margin: 0;
+    background: #f8f9fa;
+    font-family: "Nunito Sans", serif;
+
+}
+
+
+/*card*/
+/* Style untuk kartu */
+/* Style dasar untuk kartu */
+/* Style dasar untuk kartu */
+.card {
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 21px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    height: 140px;
+    /* Tinggi diperbesar */
+    position: relative;
+    font-family: "Inter", serif;
+}
+
+/* Warna background kartu */
+.card-purple {
+    background: linear-gradient(to bottom, #6f42c1, #4a2d91);
+}
+
+/* Ungu */
+.card-blue {
+    background: linear-gradient(to bottom, #007bff, #0056b3);
+}
+
+/* Biru */
+.card-red {
+    background: linear-gradient(to bottom, #dc3545, #a71d2a);
+}
+
+/* Merah */
+.card-pink {
+    background: linear-gradient(to bottom, #d63384, #b21d5a);
+}
+
+/* Pink */
+
+/* Style untuk angka */
+.card p.card-text {
+    font-size: 28px;
+    /* Angka lebih besar */
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* Style untuk ikon */
+.card i {
+    font-size: 40px;
+    /* Ukuran ikon lebih besar */
+    margin-bottom: 5px;
+}
+
+/* Style untuk nama */
+.card h5 {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+/* Mengatur posisi angka di atas */
+.card-header {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.admin-panel-title {
+    margin-bottom: 35px;
+    font-size: 25px;
+    align-items: center;
+    font-weight: bold;
+    font-family: "Inter", serif;
+}
+
+.sidebar {
+    width: 250px;
+    background: white;
+    color: black;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+
+
+
+.sidebar a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 12px;
+    cursor: pointer;
+    position: relative;
+    transition: background 0.3s;
+}
+
+.sidebar a.active {
+    background: #e9ecef;
+    color: #007bff;
+    border-left: 4px solid #007bff;
+    /* Garis biru samping */
+    border-radius: 5px;
+    /* Membuat sudut lebih halus */
+    padding-left: 12px;
+    /* Memberikan ruang agar tidak terlalu rapat */
+
+}
+
+
+.sidebar a.active::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 5px;
+    background: #007bff;
+}
+
+/*icons*/
+
+.icon-md {
+    font-size: 30px;
+    /* Ukuran ikon */
+    /* Warna ikon */
+    margin-right: 10px;
+    /* Jarak kanan ikon */
+    transition: transform 0.3s ease-in-out;
+}
+
+.icon-md:hover {
+    transform: scale(1.2);
+    /* Efek zoom saat hover */
+    color: #ff9800;
+    /* Warna berubah saat hover */
+}
+
+.card-body {
+    color: black;
+}
+
+.sidebar a:hover {
+    background: #e9ecef;
+}
+
+.main-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    transition: margin-left 0.3s ease-in-out;
+}
+
+.topbar {
+    width: 100%;
+    background: #007bff;
+    padding: 10px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content {
+    flex-grow: 1;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.profile-menu {
+    position: relative;
+    display: inline-block;
+}
+
+.profile-dropdown {
+    display: none;
+    position: absolute;
+    right: 0;
+    background: white;
+    color: black;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    min-width: 150px;
+}
+
+.profile-dropdown a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.profile-dropdown a:hover {
+    background: #f1f1f1;
+}
+
+.profile-menu:hover .profile-dropdown {
+    display: block;
+}
+
+/*job card*/
+
+.job-card {
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1px;
+    margin: 10px;
+}
+
+.card-img {
+    width: 100%;
+    ;
+}
