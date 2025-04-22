@@ -13,12 +13,12 @@
 
 ## Kontributor
 
-Dibuat oleh       : Najwan Raihan Azhari
-Didukung oleh     : XII RPL UNGGULAN GENERASI KE-19
-Kontributor       : WaanXGH, Asfung, Rifky
-Desain oleh       : Raden
-Dokumentasi oleh  : Radit, Fitroh
-Update terakhir   : WaanXGH 
+- **Dibuat oleh**: Najwan Raihan Azhari  
+- **Didukung oleh**: XII RPL UNGGULAN GENERASI KE-19  
+- **Kontributor**: WaanXGH, Asfung, Rifky  
+- **Desain oleh**: Raden  
+- **Dokumentasi oleh**: Radit, Fitroh  
+- **Update terakhir**: WaanXGH
 
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
